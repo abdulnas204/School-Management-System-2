@@ -25,8 +25,8 @@ public $student_ob;
 
  public function send_sms($to,$message){
 
-$token="2782dd388e780708ebc38ddecfe135e1";
-$url = "http://sms.greenweb.com.bd/api.php";
+$token="sms token";
+$url = "sms url";
 $data= array(
 'to'=>"$to",
 'message'=>"$message",
